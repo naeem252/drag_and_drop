@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drop game</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Drop Game</h1>
+      <div class="box-container">
+        <div draggable="true" class="box" data-color="red"></div>
+        <div draggable="true" class="box" data-color="green"></div>
+        <div draggable="true" class="box" data-color="purple"></div>
+        <div draggable="true" class="box" data-color="gray"></div>
+        <div draggable="true" class="box" data-color="black"></div>
+        <div draggable="true" class="box" data-color="blue"></div>
+      </div>
+      <div class="result">
+        <ul class="drop-container"></ul>
+        <ul class="rules">
+          <li data-color="green">geen</li>
+          <li data-color="purple">purple</li>
+          <li data-color="gray">gray</li>
+          <li data-color="black">black</li>
+          <li data-color="blue">blue</li>
+          <li data-color="red">red</li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
